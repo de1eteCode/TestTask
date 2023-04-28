@@ -1,0 +1,6 @@
+.idea
+TestTask.Solution/bin/*
+TestTask.Solution/obj/*
+TestTask.UnitTests/bin/*
+TestTask.UnitTests/obj/*
+TestTask.sln.DotSettings.user
