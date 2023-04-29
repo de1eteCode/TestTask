@@ -2,7 +2,7 @@
 
 namespace TestTask.Solution.Dictionaries; 
 
-public class HundredNumberDictionary {
+public static class HundredNumberDictionary {
 
     /// <summary>
     /// Числа 100-900 по падежам
