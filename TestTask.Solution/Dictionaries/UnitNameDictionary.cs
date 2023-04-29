@@ -41,6 +41,10 @@ public static class UnitNameDictionary {
             return string.Empty;
         }
 
+        if (scale > _unitNames.Length + 1) {
+            throw new ArgumentOutOfRangeException($"Индекс класса '{scale}' не поддерживается");
+        }
+
         var scalePlural = scaleNameForm == 0 ? 0 : 1;
 
         // Если падеж именительный или винительный и множественное число
